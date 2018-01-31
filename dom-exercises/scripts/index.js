@@ -1,7 +1,9 @@
 function myFunction() {
 
-    var x =first;
-    var y =last;
-    console.log(x,y)
+   var  firstName = document.getElementById("firstname");
+   var lastName = document.getElementById("lastname");
+
+
+    console.log(firstName.value, lastName.value);
 
 }
